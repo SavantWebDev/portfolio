@@ -1,0 +1,47 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-weight: 600;
+}
+
+/* Nav Links */
+.navLinks {
+    display: flex;
+}
+
+.navLinks li:not(:last-child) {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.navLinks li svg {
+    margin-left: 10px;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    left: calc(50% - 48px)
+}
+
+/* Button */
+.buttonArea {
+    display: flex;
+    align-items: center;
+}
+
+.buttonArea button {
+    background-color: var(--principalColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 16px;
+    border-radius: 50%;
+}
