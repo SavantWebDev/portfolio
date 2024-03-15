@@ -1,6 +1,8 @@
 .container {
     width: 1600px;
     margin: 0 auto;
+    display: flex;
+    padding-top: 80px;
 }
 
 .asideDecoratorBar {
@@ -8,7 +10,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 1200px;
+    height: 1300px;
     width: 100px;
     overflow-y: hidden;
 }
@@ -30,4 +32,8 @@
     100% {
         transform: translateY(80%);
     }
+}
+
+.cardsContainer {
+    margin-left: 80px;
 }
