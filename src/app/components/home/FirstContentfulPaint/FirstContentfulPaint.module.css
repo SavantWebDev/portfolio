@@ -23,6 +23,7 @@
     font-size: 64px;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-weight: 500;
     line-height: 140%;
 }
 
@@ -129,7 +130,7 @@
     height: 600px;
     width: 600px;
     border-radius: 50%;
-    border: solid 100px #15151590;
+    border: solid 100px #15151580;
 }
 
 .glowCian {
