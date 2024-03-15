@@ -4,6 +4,7 @@ import { urbanist } from "./fonts";
 // Components
 import Header from "./components/global/header/header";
 import FirstContentfulPaint from "./components/home/FirstContentfulPaint/FirstContentfulPaint";
+import OpposingCards from "./components/home/OpposingCards/OpposingCards";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
         <Header />
 
         <FirstContentfulPaint />
+
+        <OpposingCards />
     </main>
   );
 }

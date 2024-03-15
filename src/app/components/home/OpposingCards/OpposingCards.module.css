@@ -1,0 +1,100 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 300px;
+    padding-bottom: 300px;
+}
+
+.cardArea {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.cardArea.cardOpposing {
+    justify-content: end;
+}
+
+/* Image Area */
+.imageArea {
+    position: relative;
+    width: 30%;
+}
+
+.imageArea img {
+    border-radius: 20px;
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.subTitle {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+/* Texte Area */
+.textArea {
+    width:30%;
+    margin-left: 40px;
+}
+
+.cardArea.cardOpposing .textArea {
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.textArea h2 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.cardArea.cardOpposing .textArea h2 {
+    text-align: end;
+    color: var(--glowColor);
+}
+
+/* RollDown Animation */
+.rollDownAnimation {
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+}
+
+.rollDownAnimation .ball {
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -6px;
+    width: 13px;
+    height: 13px;
+    background-color: #0CA494;
+    border-radius: 50%;
+}
+
+.rollDownAnimation .line {
+    display: block;
+    height: 100px;
+    width: 2px;
+    background: rgb(26,206,181);
+    background: linear-gradient(180deg, rgba(26,206,181,1) 0%, rgba(50,77,73,1) 80%);
+}
