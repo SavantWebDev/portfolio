@@ -36,7 +36,16 @@ export default function FirstContentfulPaint() {
                 </div>
             </div>
 
-            <div></div>
+            {/* RollDown Animation */}
+            <div className={style.rollDownAnimation}>
+                <span className={style.ball}></span>
+                <span className={style.line}></span>
+            </div>
+
+            {/* Image Area */}
+            <div className={style.imageArea}>
+                <img src="./images/imageFirstContentfulPaint.png" alt="" />
+            </div>
         </section>
     )
 }

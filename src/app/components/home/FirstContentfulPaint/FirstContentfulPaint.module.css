@@ -1,7 +1,9 @@
 .container {
+    display: flex;
+    align-items: center;
     max-width: 1500px;
     margin: 0 auto;
-    padding-top: 140px;
+    padding-top: 40px;
 }
 
 /* Sec Text */
@@ -67,3 +69,53 @@
      left: 55px;
      top: 101px;
  }
+
+ /* RollDown Animation */
+@keyframes balllRoll {
+    0% {
+        top: -10px;
+    }
+    70% {
+        opacity: 1;
+        top: 100%;
+    }
+    100% {
+        opacity: 0;
+        top: 100%;
+    }
+
+}
+
+.rollDownAnimation {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+}
+
+.rollDownAnimation .ball {
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation: balllRoll 2s infinite cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.rollDownAnimation .line {
+    display: block;
+    height: 34px;
+    width: 2px;
+    background-color: #fff;
+}
+
+/* Image Area */
+.imageArea {
+    display: flex;
+    justify-content: end;
+}
+.imageArea img {
+    width: 90%;
+}
