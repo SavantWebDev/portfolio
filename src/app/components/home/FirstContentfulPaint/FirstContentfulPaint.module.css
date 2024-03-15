@@ -1,0 +1,69 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+
+/* Sec Text */
+.secText {
+    display: flex;
+    position: relative;
+}
+
+.decoratorText {
+    position: absolute;
+    left: -50px;
+    top: -40px;
+}
+
+.secText h1 {
+    position: relative;
+    font-size: 64px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 140%;
+}
+
+.conector {
+    position: relative;
+    margin-left: 4px;
+    width: 400px;
+}
+
+.conector img {
+    position: absolute;
+}
+
+.conector p {
+    position: absolute;
+}
+
+/* Conect 1 */
+.conector.conec1 img{
+    top: -20px;
+}
+
+.conector.conec1 p {
+    left: 110px;
+    top: -45px;
+}
+
+/* Conect 2 */
+.conector.conec2 img{
+   bottom: -4px;
+}
+
+.conector.conec2 p {
+    left: 65px;
+    bottom: -28px;
+}
+
+/* Conect 3 */
+.conector.conec3 img{
+    top: 51px;
+ }
+ 
+ .conector.conec3 p {
+     left: 55px;
+     top: 101px;
+ }
