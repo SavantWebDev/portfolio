@@ -115,7 +115,32 @@
 .imageArea {
     display: flex;
     justify-content: end;
+    position: relative;
 }
 .imageArea img {
     width: 90%;
+    z-index: 99;
+}
+
+.decoratorLineBall {
+    position: absolute;
+    left: -120px;
+    display: block;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    border: solid 100px #15151590;
+}
+
+.glowCian {
+    position: absolute;
+    left: -220px;
+    bottom: -80px;
+}
+
+.glowBlue {
+    position: absolute;
+    left: 80px;
+    top: -80px;
+    z-index: 9;
 }
