@@ -1,8 +1,13 @@
+'use client'
 import style from './CardsProjects.module.css'
 
 export default function CardsProjects({number, img, subTitle, Title, description, tags}) {
 
     let TagsGeradas = tags
+
+    
+
+    // console.log(TagsGeradas)
 
     return (
         <article className={style.card}>
@@ -20,11 +25,11 @@ export default function CardsProjects({number, img, subTitle, Title, description
                 <p>{description}</p>
                 {/* Tags */}
                 <ul className={style.tagsArea}> 
-                    {/* {
-                        TagsGeradas.forEach((tag) => {
-                            <li>{tag}</li>
-                        })
-                    } */}
+                {
+                    TagsGeradas.map((element, index) => { 
+                        return <li key={index}>{element}</li>
+                    })
+                }  
                 </ul>
             </div>
         </article>
