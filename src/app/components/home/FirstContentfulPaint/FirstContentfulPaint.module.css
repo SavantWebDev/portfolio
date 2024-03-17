@@ -1,7 +1,7 @@
 .container {
     display: flex;
     align-items: center;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
     padding-top: 40px;
 }
@@ -20,11 +20,12 @@
 
 .secText h1 {
     position: relative;
-    font-size: 64px;
+    font-size: 58px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 500;
     line-height: 140%;
+    width: max-content;
 }
 
 .conector {

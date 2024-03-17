@@ -10,7 +10,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 1300px;
+    height: 1800px;
     width: 100px;
     overflow-y: hidden;
 }
@@ -27,13 +27,34 @@
 
 @keyframes scrolling {
     0% {
-        transform: translateY(-80%);
+        transform: translateY(-50%);
     }
     100% {
-        transform: translateY(80%);
+        transform: translateY(50%);
     }
 }
 
 .cardsContainer {
     margin-left: 80px;
+    width: 100%;
+}
+
+/* View More */
+.viewMore {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    color: var(--glowColor);
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.viewMore svg{
+    margin-left: 20px;
+}
+
+.viewMore svg path{
+    fill: var(--glowColor);
 }

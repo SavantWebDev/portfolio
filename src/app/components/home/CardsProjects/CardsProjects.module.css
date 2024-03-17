@@ -1,13 +1,13 @@
 .card {
     display: flex;
-    margin-bottom: 160px;
+    margin-bottom: 200px;
     width: 100%;
 }
 
 /* Image Area */
 .imageArea {
     position: relative;
-    min-width: 40%;
+    min-width: 30%;
 }
 
 .imageArea img {
@@ -47,10 +47,18 @@
     margin-top: 16px;
 }
 
+/* Tags View Area */
+.areaTagsView {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    width: 80%;
+}
+
 /* Tags */
 .tagsArea {
     display: flex;
-    margin-top: 24px;
 }
 
 .tagsArea li {
@@ -62,4 +70,9 @@
 
 .tagsArea li:not(:last-child) {
     margin-right: 10px;
+}
+
+/* View Project */
+.viewProject {
+    display: flex;
 }
