@@ -18,7 +18,7 @@
 /* Image Area */
 .imageArea {
     position: relative;
-    width: 30%;
+    width: 32%;
 }
 
 .imageArea img {
@@ -87,6 +87,7 @@
     width: 13px;
     height: 13px;
     background-color: #0CA494;
+    background-color: #fff;
     border-radius: 50%;
 }
 
@@ -95,7 +96,8 @@
     height: 100px;
     width: 2px;
     background: rgb(26,206,181);
-    background: linear-gradient(180deg, rgba(26,206,181,1) 0%, rgba(50,77,73,1) 80%);
+    /* background: linear-gradient(180deg, rgba(26,206,181,1) 0%, rgba(0,0,0,0) 80%); */
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 80%);
 }
 
 /* Decorator Glow */

@@ -23,7 +23,7 @@ export default function Home() {
 
         <ProjectsArea />
 
-        <Strip />
+        {/* <Strip /> */}
 
         <ColaboratorsArea />
 

@@ -1,8 +1,12 @@
 .container {
     max-width: 100%;
-    padding: 0px 40px;
     margin: 0 auto;
-    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.containerCards {
     display: flex;
+    background-color: var(--principalColor);
+    padding: 0px 40px;
     padding-bottom: 120px;
 }

@@ -43,18 +43,14 @@
 .viewMore {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     width: 100%;
-    color: var(--glowColor);
-    font-size: 32px;
+    font-size: 28px;
     text-transform: uppercase;
     margin-bottom: 80px;
 }
-
-.viewMore svg{
-    margin-left: 20px;
-}
-
-.viewMore svg path{
-    fill: var(--glowColor);
+.viewMore h3 b {
+    color: var(--glowColor);
+    font-weight: 400;
+    margin-right: 10px;
 }

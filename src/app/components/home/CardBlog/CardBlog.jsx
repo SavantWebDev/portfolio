@@ -7,7 +7,7 @@ export default function CardBlog() {
             <div className={style.textArea}>
                 {/* Title */}
                 <h1 className={style.title}>Conheça nossa 
-                <br />
+                    <br />
                     <b>metedologia</b>
                 </h1>
                 {/* Description */}
