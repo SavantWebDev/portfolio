@@ -1,0 +1,54 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-bottom: 300px;
+}
+
+/* Area Video */
+.areaVideo {
+    position: relative;
+    width: 1024px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.colorSobre {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(#00FFFF15 0%, #00FFFF00 100%);
+}
+
+/* Area Information */
+.areaInformation {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.areaInformation h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+.buttonPlay {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.buttonPlay svg {
+    margin-right: 10px;
+}

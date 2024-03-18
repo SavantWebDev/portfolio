@@ -34,6 +34,11 @@ export default function FirstContentfulPaint() {
                         <p>we are gorazdo <br />a unique digital agency</p>
                     </div>
                 </div>
+
+                {/* Animation UnderText Area */}
+                <div className={style.animationUndertextArea}>
+                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagem Ilustrativa" />
+                </div>
             </div>
 
             {/* RollDown Animation */}
@@ -45,7 +50,34 @@ export default function FirstContentfulPaint() {
             {/* Image Area */}
             <div className={style.imageArea}>
                 <img src="./images/imageFirstContentfulPaint.png" alt="" />
+                {/* Glow Blue 1 */}
                 <svg className={style.glowBlue} width="500" height="500" viewBox="0 0 888 799" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_f_579_115)">
+                    <circle cx="443.953" cy="355.747" r="143.237" fill="#084AF3" fill-opacity="0.3"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_f_579_115" x="0.715332" y="-87.4909" width="886.475" height="886.475" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_579_115"/>
+                    </filter>
+                    </defs>
+                </svg>
+                {/* Glow Blue 2 */}
+                <svg className={`${style.glowBlue} ${style.glowBlue2}`} width="500" height="500" viewBox="0 0 888 799" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_f_579_115)">
+                    <circle cx="443.953" cy="355.747" r="143.237" fill="#084AF3" fill-opacity="0.3"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_f_579_115" x="0.715332" y="-87.4909" width="886.475" height="886.475" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_579_115"/>
+                    </filter>
+                    </defs>
+                </svg>
+                {/* Glow Blue 3 */}
+                <svg className={`${style.glowBlue} ${style.glowBlue3}`} width="500" height="500" viewBox="0 0 888 799" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_579_115)">
                     <circle cx="443.953" cy="355.747" r="143.237" fill="#084AF3" fill-opacity="0.3"/>
                     </g>

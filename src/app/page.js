@@ -8,6 +8,7 @@ import OpposingCards from "./components/home/OpposingCards/OpposingCards";
 import ProjectsArea from "./components/home/ProjectsArea/ProjectsArea";
 import Strip from "./components/home/Strip/Strip";
 import ColaboratorsArea from "./components/home/ColaboratorsArea/ColaboratorsArea";
+import VideoBanner from "./components/home/VideoBanner/VideoBanner";
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
         <Strip />
 
         <ColaboratorsArea />
+
+        <VideoBanner />
     </main>
   );
 }
