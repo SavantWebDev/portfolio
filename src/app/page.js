@@ -7,6 +7,7 @@ import FirstContentfulPaint from "./components/home/FirstContentfulPaint/FirstCo
 import OpposingCards from "./components/home/OpposingCards/OpposingCards";
 import ProjectsArea from "./components/home/ProjectsArea/ProjectsArea";
 import Strip from "./components/home/Strip/Strip";
+import ColaboratorsArea from "./components/home/ColaboratorsArea/ColaboratorsArea";
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
         <ProjectsArea />
 
         <Strip />
+
+        <ColaboratorsArea />
     </main>
   );
 }
