@@ -58,6 +58,12 @@ export default function OpposingCards() {
                     <span className={style.ball}></span>
                     <span className={style.line}></span>
                 </div>
+
+                {/* Decorator Glow */}
+                <svg className={style.decoratorGlow} width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M81.5 1L1 84.5L85 38.5L58.5 81.5L89.5 67L85 90.5" stroke="#BAFF01"/>
+                </svg>
+
             </div>
 
             {/* Card */}

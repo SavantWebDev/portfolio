@@ -97,3 +97,10 @@
     background: rgb(26,206,181);
     background: linear-gradient(180deg, rgba(26,206,181,1) 0%, rgba(50,77,73,1) 80%);
 }
+
+/* Decorator Glow */
+.decoratorGlow {
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+}

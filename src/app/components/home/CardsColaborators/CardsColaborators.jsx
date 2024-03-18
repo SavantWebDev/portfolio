@@ -4,7 +4,9 @@ export default function CardsColaborators() {
     return (
         <article className={style.cardColaborator}>
             {/* Image Colaborator */}
-            <img className={style.imageColaborator} src="./images/colaborator.png" alt="Imagem Colaborador" />
+            <div className={style.imageColaborator}>
+                <img src="./images/colaborator.png" alt="Imagem Colaborador" />
+            </div>
 
             {/* Information Area*/}
             <div className={style.informationArea}>

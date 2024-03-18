@@ -5,6 +5,7 @@
     border-radius: 40px;
     margin-right: 40px;
     transition: .3s;
+    width: 750px;
 }
 
 .cardColaborator:hover {
@@ -13,18 +14,26 @@
 
 /* Image Colaborator */
 .imageColaborator {
+    position: relative;
+    width: 50%;
+}
+.imageColaborator img{
+    position: absolute;
+    bottom: 0;
     filter: saturate(0);
     transition: .3s;
 }
 
-.cardColaborator:hover .imageColaborator {
+.cardColaborator:hover .imageColaborator img{
     filter: saturate(100%);
 }
 
 /* Information Area */
 .informationArea {
+    width: 60%;
     padding-top: 30px;
     padding-right: 40px;
+    padding-bottom: 50px;
 }
 
 .informationArea h1 {
