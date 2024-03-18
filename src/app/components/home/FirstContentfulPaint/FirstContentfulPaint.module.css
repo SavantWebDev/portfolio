@@ -3,6 +3,7 @@
     max-width: 1400px;
     margin: 0 auto;
     padding-top: 40px;
+    height: 80vh;
 }
 
 .textArea {
@@ -77,6 +78,7 @@
 
  /* Animation Undertext Area */
  .animationUndertextArea {
+    /* display: none; */
     position: relative;
     width: 640px;
     height: 200px;
@@ -92,6 +94,18 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+ }
+
+ /* List Index */
+ .listIndex {
+    margin-top: 40px;
+ }
+ 
+ .listIndex a {
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-right: 10px;
  }
 
  /* RollDown Animation */

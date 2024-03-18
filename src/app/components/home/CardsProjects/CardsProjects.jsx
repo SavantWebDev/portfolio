@@ -1,16 +1,18 @@
 'use client'
 import style from './CardsProjects.module.css'
 
-export default function CardsProjects({number, img, subTitle, Title, description, tags}) {
+export default function CardsProjects({number, img, subTitle, Title, description, tags, lastCard}) {
 
+    // List Of tags
     let TagsGeradas = tags
 
-    
-
-    // console.log(TagsGeradas)
+    // If is last Card
+    if (lastCard) {
+        var isLastCard = style.isLastCardConfirmed
+    }
 
     return (
-        <article className={style.card}>
+        <article className={`${style.card} ${isLastCard}`}>
             {/* Image Area */}
             <div className={style.imageArea}>
                 <img src={img} alt="Imagem do Projeto" />

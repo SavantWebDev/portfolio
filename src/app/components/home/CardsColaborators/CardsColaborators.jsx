@@ -1,8 +1,9 @@
 import style from './CardsColaborators.module.css'
 
 export default function CardsColaborators() {
+
     return (
-        <article className={style.cardColaborator}>
+        <article className={`${style.cardColaborator}`}>
             {/* Image Colaborator */}
             <div className={style.imageColaborator}>
                 <img src="./images/colaborator.png" alt="Imagem Colaborador" />

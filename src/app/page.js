@@ -19,13 +19,14 @@ export default function Home() {
 
         <FirstContentfulPaint />
 
-        <OpposingCards />
 
         <ProjectsArea />
 
         {/* <Strip /> */}
 
         <ColaboratorsArea />
+
+        <OpposingCards />
 
         <VideoBanner />
 
