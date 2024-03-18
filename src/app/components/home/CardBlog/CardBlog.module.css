@@ -1,0 +1,19 @@
+/* Text Area */
+.textArea {
+    width: 100%;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 140%;
+}
+
+.title b {
+    color: var(--glowColor);
+}
+
+/* Description */
+.description {
+    font-weight: 500;
+    margin-top: 10px;
+}

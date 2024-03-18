@@ -9,6 +9,7 @@ import ProjectsArea from "./components/home/ProjectsArea/ProjectsArea";
 import Strip from "./components/home/Strip/Strip";
 import ColaboratorsArea from "./components/home/ColaboratorsArea/ColaboratorsArea";
 import VideoBanner from "./components/home/VideoBanner/VideoBanner";
+import BlogArea from "./components/home/BlogArea/BlogArea";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
         <ColaboratorsArea />
 
         <VideoBanner />
+
+        <BlogArea />
     </main>
   );
 }
