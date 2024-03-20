@@ -4,6 +4,9 @@
     margin: 0 auto;
     padding-top: 40px;
     height: 80vh;
+    /* background-image: url('./ia.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .textArea {
@@ -78,7 +81,7 @@
 
  /* Animation Undertext Area */
  .animationUndertextArea {
-    /* display: none; */
+    display: none;
     position: relative;
     width: 640px;
     height: 200px;
@@ -98,7 +101,7 @@
 
  /* List Index */
  .listIndex {
-    margin-top: 40px;
+    margin-top: 140px;
  }
  
  .listIndex a {
