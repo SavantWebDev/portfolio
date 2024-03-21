@@ -78,6 +78,15 @@ export default function PrejectsArea() {
 
             {/* Cards Container */}
             <div className={style.cardsContainer}>
+                <svg className={style.decoratorHigh} width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="38" cy="38" r="37.5" stroke="white"/>
+                    <path d="M22 40H55" stroke="white"/>
+                    <path d="M38.5 55.5V25" stroke="white"/>
+                    <path d="M27.7164 51.0336L49.2832 29.4668" stroke="white"/>
+                    <path d="M49.5668 51.5668L28 30" stroke="white"/>
+                </svg>
+
+
                 <CardsProjects 
                     img={'./images/imageProject1.jpg'}
                     number='1'

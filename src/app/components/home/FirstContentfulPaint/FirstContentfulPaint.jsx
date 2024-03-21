@@ -39,7 +39,7 @@ export default function FirstContentfulPaint() {
                 <div className={style.animationUndertextArea}>
                     {/* <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagem Ilustrativa" /> */}
                     {/* <img src="./images/zz.webp" alt="Imagem Ilustrativa" /> */}
-                    <video autoPlay loop src="./videos/FristContentVideo.mp4"></video>
+                    {/* <video autoPlay loop src="./videos/FristContentVideo.mp4"></video> */}
                 </div>
 
                 {/* List Index */}
@@ -59,9 +59,9 @@ export default function FirstContentfulPaint() {
             {/* Image Area */}
             <div className={style.imageArea}>
                 {/* <img src="./images/imageFirstContentfulPaint.png" alt="" /> */}
-                {/* <img src="./images/ia.png" alt="" /> */}
+                <img src="./images/ia.png" alt="" />
                 {/* Glow Blue 1 */}
-                <svg className={style.glowBlue} width="500" height="500" viewBox="0 0 888 799" fill="none" xmlns="http://www.w3.org/2000/svg">
+                {/* <svg className={style.glowBlue} width="500" height="500" viewBox="0 0 888 799" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_579_115)">
                     <circle cx="443.953" cy="355.747" r="143.237" fill="#084AF3" fill-opacity="0.3"/>
                     </g>
@@ -72,9 +72,9 @@ export default function FirstContentfulPaint() {
                     <feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_579_115"/>
                     </filter>
                     </defs>
-                </svg>
+                </svg> */}
                 {/* Glow Blue 2 */}
-                <svg className={`${style.glowBlue} ${style.glowBlue2}`} width="500" height="500" viewBox="0 0 888 799" fill="none" xmlns="http://www.w3.org/2000/svg">
+                {/* <svg className={`${style.glowBlue} ${style.glowBlue2}`} width="500" height="500" viewBox="0 0 888 799" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_579_115)">
                     <circle cx="443.953" cy="355.747" r="143.237" fill="#084AF3" fill-opacity="0.3"/>
                     </g>
@@ -85,9 +85,9 @@ export default function FirstContentfulPaint() {
                     <feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_579_115"/>
                     </filter>
                     </defs>
-                </svg>
+                </svg> */}
                 {/* Glow Blue 3 */}
-                <svg className={`${style.glowBlue} ${style.glowBlue3}`} width="500" height="500" viewBox="0 0 888 799" fill="none" xmlns="http://www.w3.org/2000/svg">
+                {/* <svg className={`${style.glowBlue} ${style.glowBlue3}`} width="500" height="500" viewBox="0 0 888 799" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_579_115)">
                     <circle cx="443.953" cy="355.747" r="143.237" fill="#084AF3" fill-opacity="0.3"/>
                     </g>
@@ -98,11 +98,11 @@ export default function FirstContentfulPaint() {
                     <feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_579_115"/>
                     </filter>
                     </defs>
-                </svg>
+                </svg> */}
 
                 <span className={style.decoratorLineBall}></span>
 
-                <svg className={style.glowCian} width="350" height="350" viewBox="0 0 563 563" fill="none" xmlns="http://www.w3.org/2000/svg">
+                {/* <svg className={style.glowCian} width="350" height="350" viewBox="0 0 563 563" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_579_112)">
                     <circle cx="281.5" cy="281.5" r="81.5" fill="#1BCFBD" fill-opacity="0.5"/>
                     </g>
@@ -113,7 +113,7 @@ export default function FirstContentfulPaint() {
                     <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_579_112"/>
                     </filter>
                     </defs>
-                </svg>
+                </svg> */}
             </div>
 
         </section>

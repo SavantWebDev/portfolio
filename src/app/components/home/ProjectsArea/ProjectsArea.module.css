@@ -35,8 +35,14 @@
 }
 
 .cardsContainer {
+    position: relative;
     margin-left: 80px;
     width: 100%;
+}
+
+.cardsContainer .decoratorHigh {
+    position: absolute;
+    right: 0px;
 }
 
 /* View More */
