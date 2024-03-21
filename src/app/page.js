@@ -19,6 +19,7 @@ export default function Home() {
 
         <FirstContentfulPaint />
 
+        {/* <OpposingCards /> */}
 
         <ProjectsArea />
 
@@ -26,9 +27,8 @@ export default function Home() {
 
         <ColaboratorsArea />
 
-        <OpposingCards />
 
-        <VideoBanner />
+        {/* <VideoBanner /> */}
 
         <BlogArea />
     </main>
