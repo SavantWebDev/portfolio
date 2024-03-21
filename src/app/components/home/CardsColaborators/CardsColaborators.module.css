@@ -1,15 +1,16 @@
 .cardColaborator {
     position: relative;
     background-color: #292A2C;
+    background-color: #000;
     display: flex;
     border-radius: 40px;
-    margin-right: 40px;
+    margin-right: 20px;
     transition: .3s;
-    width: 750px;
+    width: 600px;
 }
 
 .cardColaborator:hover {
-    background-color: transparent;
+    background-color: #000;
 }
 
 /* Image Colaborator */

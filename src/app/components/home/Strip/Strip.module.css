@@ -3,6 +3,10 @@
     padding: 20px 0px;
 }
 
+.container.haveOrder {
+    background-color: #1A2CCE;
+}
+
 .area {
     display: flex;
     justify-content: space-between;
@@ -11,12 +15,22 @@
     margin: 0 auto;
 }
 
-.area p {
-    font-size: 32px;
+/* quote Area */
+.quoteArea {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 500px;
+    background-color: #000;
+    padding: 34px 44px;
+    border-radius: 20px;
+}
+
+.quoteArea p {
+    font-size: 16px;
     font-weight: 400;
 }
 
-.area p b {
-    color: #000000;
-    font-weight: 400;
+.quoteArea svg {
+    margin-top: 10px;
 }
