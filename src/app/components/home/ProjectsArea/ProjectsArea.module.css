@@ -2,7 +2,6 @@
     width: 1600px;
     margin: 0 auto;
     display: flex;
-    padding-top: 200px;
 }
 
 .asideDecoratorBar {
@@ -10,7 +9,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 1650px;
+    height: 1750px;
     width: 100px;
     overflow-y: hidden;
 }
@@ -38,6 +37,7 @@
     position: relative;
     margin-left: 80px;
     width: 100%;
+    padding-top: 100px;
 }
 
 .cardsContainer .decoratorHigh {

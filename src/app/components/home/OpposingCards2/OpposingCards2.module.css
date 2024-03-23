@@ -1,64 +1,71 @@
 .container {
-    max-width: 1500px;
+    position: relative;
     margin: 0 auto;
-    margin-top: 300px;
+    height: 80vh;
+    padding: 20vh 0px;
+    overflow: hidden;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+/* Containers Cards */
+.conteinerCards {
+    position: relative;
+    max-width: 1500px;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .cardArea {
     display: flex;
     width: 100%;
+    height: 100%;
     position: relative;
-    margin-bottom: 200px;
-}
-
-.cardArea.cardOpposing {
-    justify-content: end;
 }
 
 /* Image Area */
 .imageArea {
     position: relative;
-    width: 32%;
+    width: 40%;
 }
 
 .imageArea img {
     border-radius: 20px;
     width: 100%;
-    height: 330px;
+    height: 100%;
     object-fit: cover;
 }
 
-.subTitle {
-    display: block;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.icon {
+/* Area Information */
+.areaInformation {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #fff;
-}
-
-/* Texte Area */
-.textArea {
+    flex-direction: column;
+    justify-content: space-between;
     width:30%;
     margin-left: 40px;
 }
 
-.cardArea.cardOpposing .textArea {
-    margin-left: 0px;
-    margin-right: 40px;
+/* Texte Area */
+.textArea {
+    
 }
 
 .textArea h2 {
@@ -67,42 +74,38 @@
     margin-bottom: 6px;
 }
 
-.cardArea.cardOpposing .textArea h2 {
-    text-align: end;
-    color: var(--glowColor);
+/* Area Inferior */
+.areaInferior {
+    display: flex;
+    align-items: center;
 }
 
-/* RollDown Animation */
-.rollDownAnimation {
-    position: absolute;
-    bottom: -80px;
-    left: 50%;
-}
-
-.rollDownAnimation .ball {
+.subTitle {
     display: block;
-    position: absolute;
-    top: -10px;
-    left: -6px;
-    width: 13px;
-    height: 13px;
-    background-color: #0CA494;
-    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
     border-radius: 50%;
+    border: 1px solid #fff;
 }
 
-.rollDownAnimation .line {
-    display: block;
-    height: 100px;
-    width: 2px;
-    background: rgb(26,206,181);
-    /* background: linear-gradient(180deg, rgba(26,206,181,1) 0%, rgba(0,0,0,0) 80%); */
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 80%);
-}
-
-/* Decorator Glow */
-.decoratorGlow {
+/* Name Decoration */
+.nameDecoration {
     position: absolute;
-    right: -20px;
-    bottom: -20px;
+    left: -180px;
+    top: -120px;
+    z-index: -1;
+}
+
+.nameDecorationFree {
+    position: absolute;
+    right: -550px;
 }

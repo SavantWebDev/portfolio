@@ -59,7 +59,7 @@ export default function FirstContentfulPaint() {
             {/* Image Area */}
             <div className={style.imageArea}>
                 {/* <img src="./images/imageFirstContentfulPaint.png" alt="" /> */}
-                <img src="./images/ia.png" alt="" />
+                {/* <img src="./images/ia.png" alt="" /> */}
                 {/* Glow Blue 1 */}
                 {/* <svg className={style.glowBlue} width="500" height="500" viewBox="0 0 888 799" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_579_115)">
@@ -100,7 +100,7 @@ export default function FirstContentfulPaint() {
                     </defs>
                 </svg> */}
 
-                <span className={style.decoratorLineBall}></span>
+                {/* <span className={style.decoratorLineBall}></span> */}
 
                 {/* <svg className={style.glowCian} width="350" height="350" viewBox="0 0 563 563" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_579_112)">

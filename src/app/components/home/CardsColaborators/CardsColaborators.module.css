@@ -1,7 +1,7 @@
 .cardColaborator {
     position: relative;
-    background-color: #292A2C;
     background-color: #000;
+    background-color: #292A2C;
     display: flex;
     border-radius: 40px;
     margin-right: 20px;
