@@ -6,6 +6,7 @@
 }
 
 .container::after {
+    display: none;
     content: '';
     position: absolute;
     top: 0px;
