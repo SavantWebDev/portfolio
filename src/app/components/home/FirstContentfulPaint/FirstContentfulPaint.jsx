@@ -101,7 +101,7 @@ export default function FirstContentfulPaint() {
 
                 <span className={style.decoratorLineBall}></span>
 
-                <svg className={style.glowCian} width="350" height="350" viewBox="0 0 563 563" fill="none" xmlns="http://www.w3.org/2000/svg">
+                {/* <svg className={style.glowCian} width="350" height="350" viewBox="0 0 563 563" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_f_579_112)">
                     <circle cx="281.5" cy="281.5" r="81.5" fill="#1BCFBD" fill-opacity="0.5"/>
                     </g>
@@ -112,8 +112,15 @@ export default function FirstContentfulPaint() {
                     <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_579_112"/>
                     </filter>
                     </defs>
-                </svg>
+                </svg> */}
             </div>
+            
+            {/* Floating Text - Top*/}
+            <span className={style.floatingTextTop}>CONCEITO & INOVAÇÃO</span>
+            {/* Floating Text - Bottom*/}
+            <span className={style.floatingTextBottom}>MADE IN BRAZIL</span>
+            {/* Floating Text - Bottom*/}
+            <span className={style.floatingTextRight}>DESENVOLVIMENTO E <br /> DESIGN DE SOFTWERE </span>
 
         </section>
     )
