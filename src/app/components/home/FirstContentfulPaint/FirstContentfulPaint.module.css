@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 10vh;
 }
 
 /* Sec Text */
@@ -170,7 +171,7 @@
     background-color: #fff;
 }
 
-/* Image Area */
+/* Decorators Area */
 .decoratorsArea {
     display: flex;
     justify-content: end;
@@ -178,6 +179,55 @@
     position: relative;
     width: 100%;
     height: 100%;
+    padding-bottom: 10vh;
+}
+
+/* Module Area */
+.modulesArea {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right:40px ;
+}
+
+.modulesArea h2 {
+    font-size: 14px;
+    color: #7B7B7B;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-weight: 700;
+}
+
+.module {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.module::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    bottom: 0px;
+    right: 0px;
+    background-color: #1BCFBD;
+    transition: .3s;
+}
+
+.module:hover:after {
+    width: 140%;
+}
+
+.module svg {
+    margin-right: 16px;
+}
+
+.module svg path {
+    fill: #1BCFBD;
 }
 
 /* Decorator Down */
