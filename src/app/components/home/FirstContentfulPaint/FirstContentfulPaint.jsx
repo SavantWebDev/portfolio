@@ -3,51 +3,30 @@ import style from './FirstContentfulPaint.module.css'
 export default function FirstContentfulPaint() {
     return (
         <section className={style.container}>
-            {/* Text Area */}
-            <div className={style.textArea}>
-                {/* Sectext 1 */}
-                <div className={style.secText}>
-                    {/* Decorator */}
-                    <svg className={style.decoratorText} width="117" height="149" viewBox="0 0 117 149" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 96L96 1L1 142L101 35.5L36.5 148.5L116 78L74.5 129.5" stroke="#1BCFBD"/>
-                    </svg>
 
-                    <h1>We shape</h1>
-                    <div className={`${style.conector}  ${style.conec1}`}>
-                        <img src="./icons/conector1.svg" alt="conector 1" />
-                        <p>we are gorazdo <br />a unique digital agency</p>
-                    </div>
-                </div>
-                {/* Sectext 2 */}
-                <div className={style.secText}>
-                    <h1>the future</h1>
-                    <div className={`${style.conector}  ${style.conec2}`}>
-                        <img src="./icons/conector2.svg" alt="conector 1" />
-                        <p>we are gorazdo <br />a unique digital agency</p>
-                    </div>
-                </div>
-                {/* Sectext 3 */}
-                <div className={style.secText}>
-                    <h1>of web</h1>
-                    <div className={`${style.conector} ${style.conec3}`}>
-                        <img src="./icons/conector3.svg" alt="conector 1" />
-                        <p>we are gorazdo <br />a unique digital agency</p>
-                    </div>
-                </div>
+            {/* Left Area */}
+            <div className={style.leftArea}>
+                <img className={style.circleWords} src="./icons/circleWords.svg" alt="" />
 
-                {/* Animation UnderText Area */}
-                <div className={style.animationUndertextArea}>
-                    {/* <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagem Ilustrativa" /> */}
-                    {/* <img src="./images/zz.webp" alt="Imagem Ilustrativa" /> */}
-                    {/* <video autoPlay loop src="./videos/FristContentVideo.mp4"></video> */}
+                {/* Text Area  */}
+                <div className={style.textArea}>
+                    <h1>conceito</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <ul className={style.marks}>
+                        <li className={style.selected}>
+                            <span className={style.point}></span>
+                        </li>
+                        <li>
+                            <span className={style.point}></span>
+                        </li>
+                        <li>
+                            <span className={style.point}></span>
+                        </li>
+                        <li>
+                            <span className={style.point}></span>
+                        </li>
+                    </ul>
                 </div>
-
-                {/* List Index */}
-                {/* <nav className={style.listIndex}>
-                    <a href="">Projects</a>
-                    <a href="">Colaborators</a>
-                    <a href="">About us</a>
-                </nav> */}
             </div>
             
             {/* Area Down */}
@@ -64,7 +43,7 @@ export default function FirstContentfulPaint() {
             </div>
 
             {/* Decorators Area */}
-            <div className={style.decoratorsArea}>
+            <div className={style.rightArea}>
                 {/* Modules Area */}
                 <div className={style.modulesArea}>
                     <h2>MODULOS</h2>

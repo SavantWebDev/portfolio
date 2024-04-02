@@ -7,116 +7,70 @@
     position: relative;
 }
 
-.textArea {
+/* Left Area */
+.leftArea {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-bottom: 10vh;
 }
 
-/* Sec Text */
-.secText {
-    display: flex;
-    position: relative;
-}
-
-.decoratorText {
+.circleWords {
     position: absolute;
-    left: -50px;
-    top: -40px;
+    top: 40px;
+    left: 0px;
+    height: 140px;
 }
 
-.secText h1 {
-    position: relative;
-    font-size: 58px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-weight: 500;
-    line-height: 140%;
-    width: max-content;
+/* Text Area */
+.textArea  h1 {
+    font-size: 96px;
 }
 
-.conector {
+.textArea p {
     position: relative;
-    margin-left: 4px;
+    font-size: 14px;
     width: 400px;
 }
 
-.conector img {
+.textArea p::after {
+    content: '';
     position: absolute;
-}
-
-.conector p {
-    position: absolute;
-}
-
-/* Conect 1 */
-.conector.conec1 img{
-    top: -20px;
-}
-
-.conector.conec1 p {
-    left: 110px;
-    top: -45px;
-}
-
-/* Conect 2 */
-.conector.conec2 img{
-   bottom: -4px;
-}
-
-.conector.conec2 p {
-    left: 65px;
-    bottom: -28px;
-}
-
-/* Conect 3 */
-.conector.conec3 img{
-    top: 51px;
- }
- 
- .conector.conec3 p {
-     left: 55px;
-     top: 101px;
- }
-
- /* Animation Undertext Area */
- .animationUndertextArea {
-    display: none;
-    position: relative;
-    width: 640px;
-    height: 200px;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-top: 120px;
-    z-index: 999;
-    border: 1px solid #fff;
- }
-
- .animationUndertextArea video {
-    width: 100%;
+    top: 0px;
+    left: -21px;
+    width: 1px;
     height: 100%;
-    object-fit: cover;
- }
+    background-color: #0CA494;
+}
 
+.marks {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
 
- .animationUndertextArea img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
- }
-
- /* List Index */
- .listIndex {
-    margin-top: 120px;
- }
- 
- .listIndex a {
+.marks li .point {
+    display: block;
     border: 1px solid #fff;
-    padding: 10px 20px;
-    border-radius: 40px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.marks li:not(:last-child) {
     margin-right: 10px;
- }
+}
+
+.marks li.selected {
+    padding: 8px;
+    border: 1px solid #1BCFBD;
+    border-radius: 50%;
+}
+
+.marks li.selected .point {
+    background-color: #1BCFBD;
+    border: 1px solid #1BCFBD;
+}
 
 /* Area Down */
 .areaDow {
@@ -173,7 +127,7 @@
 }
 
 /* Decorators Area */
-.decoratorsArea {
+.rightArea {
     display: flex;
     justify-content: end;
     align-items: center;
