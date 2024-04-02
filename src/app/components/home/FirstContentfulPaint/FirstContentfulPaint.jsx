@@ -31,6 +31,11 @@ export default function FirstContentfulPaint() {
                         </ul>
                     </div>
                 </div>
+
+                {/* Cicle Area */}
+                <div className={style.circleArea}>
+                    <img className={style.circleWords} src="./icons/circleWords.svg" alt="" />
+                </div>
                 
                 {/* Area Down */}
                 <div className={style.areaDow}>
