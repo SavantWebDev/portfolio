@@ -9,9 +9,10 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 1750px;
+    height: 1890px;
     width: 100px;
     overflow-y: hidden;
+    background-color: #171717;
 }
 
 .asideDecoratorBar svg {
@@ -21,7 +22,7 @@
 .sliderItems {
     display: flex;
     flex-direction: column;
-    animation: scrolling 15s linear infinite;
+    animation: scrolling 22s linear infinite;
 }
 
 @keyframes scrolling {
@@ -56,7 +57,59 @@
     margin-bottom: 80px;
 }
 .viewMore h3 b {
-    color: var(--glowColor);
+    color: #1BCFBD;
     font-weight: 400;
     margin-right: 10px;
+}
+ 
+
+/* Button Area */
+.buttonArea {
+    display: flex;
+    align-items: center;
+}
+
+.buttonArea span {
+    display: block;
+    width: 350px;
+    height: 1px;
+    background-color: #fff;
+    margin-right: 20px;
+    transition: .3s;
+}
+
+.buttonArea:hover span {
+    background-color: #1BCFBD;
+    margin-right: 0px;
+}
+
+.buttonArea a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transition: .3s;
+}
+
+.buttonArea a svg {
+    transition: .3s;
+}
+
+.buttonArea a svg path {
+    transition: .3s;
+}
+
+.buttonArea a:hover {
+    border: 1px solid #1BCFBD;
+}
+
+.buttonArea a:hover svg {
+    transform: rotate(-45deg);
+}
+
+.buttonArea a:hover svg path{
+    fill: #1BCFBD;
 }
