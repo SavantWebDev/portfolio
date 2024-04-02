@@ -67,10 +67,22 @@
     
 }
 
+.markSection {
+    color: #7B7B7B;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+
 .textArea h2 {
     font-size: 48px;
     font-weight: 500;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
+    line-height: 100%;
+}
+
+.textArea p {
+    font-size: 14px;
+    width: 350px;
 }
 
 /* Area Inferior */
@@ -119,4 +131,18 @@
     border: 1px solid #fff;
     background-color: #000;
     border-radius: 50%;
+}
+
+/* Line grids */
+.lineGrid {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 0px;
+    z-index: -1;
+    background-color: #404141;
+}
+
+.line4 {
+    right: 8%;
 }
