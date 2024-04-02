@@ -17,7 +17,7 @@ export default function CardsProjects({number, img, subTitle, Title, description
             <div className={style.imageArea}>
                 <img src={img} alt="Imagem do Projeto" />
 
-                <span>{number}</span>
+                <span>N.º {number}</span>
             </div>
 
             {/* Text Area */}

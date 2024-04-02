@@ -21,21 +21,32 @@
 
 .imageArea span {
     position: absolute;
-    top: -60px;
+    top: -40px;
     left: 0px;
-    font-size: 96px;
-    font-weight: 900;
+    font-size: 16px;
+    font-weight: 400;
     z-index: 99;
 }
 
 /* Text Area */
 .textArea {
+    position: relative;
     margin-left: 28px;
     width: 100%;
 }
 
+.textArea::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
 .textArea span {
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -48,6 +59,7 @@
 
 .textArea p {
     width: 400px;
+    font-size: 14px;
     margin-top: 16px;
 }
 
@@ -79,4 +91,37 @@
 /* View Project */
 .viewProject {
     display: flex;
+    position: relative;
+    transition: .3s;
+}
+
+.viewProject::after {
+    content: '';
+    background-color: #1BCFBD;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    width: 0%;
+    height: 1px;
+    transition: .3s;
+}
+
+.viewProject:hover::after {
+    width: 40%;
+}
+
+.viewProject svg {
+    transition: .3s;
+}
+
+.viewProject:hover svg {
+    rotate: 45deg;
+}
+
+.viewProject svg path {
+    transition: .3s;
+}
+
+.viewProject:hover svg path {
+    fill: #1BCFBD;
 }
