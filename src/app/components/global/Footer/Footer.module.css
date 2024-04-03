@@ -1,0 +1,30 @@
+/* Container */
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+    height: 500px;
+    color: #fff;
+}
+
+/* Line grids */
+.lineGrid {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 0px;
+    z-index: -1;
+    background-color: #404141;
+}
+
+.line2 {
+    left: 8%;
+}
+
+.line3 {
+    left: calc(50% - 0.5px);
+}
+
+.line4 {
+    right: 8%;
+}
