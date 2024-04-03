@@ -1,0 +1,27 @@
+.asideDecoratorBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #1BCFBD;
+}
+
+.asideDecoratorBar svg {
+    margin: 0px 80px 0px 80px;
+}
+
+.sliderItems {
+    display: flex;
+    animation: scrolling 12s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(50%);
+    }
+}
