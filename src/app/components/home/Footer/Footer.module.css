@@ -68,12 +68,63 @@
 
 .pageLink a {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.pageLink svg path {
+.pageLink a span {
+    position: relative;
+    display: block;
+}
+
+.pageLink a span::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0px;
+    width: 0%;
+    height: 1px;
+    background-color: #1BCFBD;
+    transition: .3s;
+}
+
+.pageLink:hover a span::after {
+    width: 60%;
+}
+
+.areaIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+
+.pageLink:hover .areaIcon {
+    border: 1px solid #1BCFBD;
+}
+
+.pageLink .areaIcon svg {
+    transition: .3s;
+}
+
+.pageLink:hover .areaIcon svg {
+    rotate: 45deg;
+}
+
+.areaIcon svg path {
+    transition: .3s;
     fill: #fff;
 }
+
+.pageLink:hover .areaIcon svg path {
+    fill: #1BCFBD;
+}
+
+/* Area Talk With Team */
 
 .talkWithTeam {
     display: flex;
@@ -85,6 +136,26 @@
 .buttonArea {
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.buttonArea p {
+    position: relative;
+}
+
+.buttonArea p::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0px;
+    width: 0%;
+    height: 1px;
+    background-color: #1BCFBD;
+    transition: .3s;
+}
+
+.buttonArea:hover p::after {
+    width: 40%;
 }
 
 .buttonArea button {
@@ -96,6 +167,11 @@
     height: 40px;
     margin-left: 16px;
     border-radius: 50%;
+    transition: .3s;
+}
+
+.buttonArea:hover button {
+    background-color: #fff;
 }
 
 /* Rodape */
