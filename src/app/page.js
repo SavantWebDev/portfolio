@@ -10,6 +10,7 @@ import ColaboratorsArea from "./components/home/ColaboratorsArea/ColaboratorsAre
 import VideoBanner from "./components/home/VideoBanner/VideoBanner";
 import BlogArea from "./components/home/BlogArea/BlogArea";
 import StripCarrosel from "./components/home/StripCarrosel/StripCarrosel";
+import Footer from "./components/home/Footer/Footer";
 
 export default function Home() {
   return (
@@ -27,12 +28,14 @@ export default function Home() {
 
         {/* <ColaboratorsArea /> */}
 
-
         {/* <VideoBanner /> */}
 
         {/* <BlogArea /> */}
 
         <StripCarrosel />
+
+        <Footer />
+
     </main>
   );
 }
