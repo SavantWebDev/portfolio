@@ -1,0 +1,22 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+
+.containerCards {
+    display: flex;
+    background-color: var(--principalColor);
+    padding-bottom: 60px;
+}
+
+.containerCards.containerDesign {
+    background-color: #1A2CCE;
+}
+
+/* Slider Cards */
+.sliderCards {
+    padding-left: 10%;
+    display: flex;
+}

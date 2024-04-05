@@ -26,7 +26,7 @@ export default function Home() {
 
         {/* <Strip /> */}
 
-        {/* <ColaboratorsArea /> */}
+        <ColaboratorsArea />
 
         {/* <VideoBanner /> */}
 
