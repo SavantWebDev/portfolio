@@ -24,10 +24,6 @@ export default function CardsColaborators() {
             </div>
 
             {/* Decorator Glow */}
-            {/* <svg className={style.decoratorGlow} width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M81.5 1L1 84.5L85 38.5L58.5 81.5L89.5 67L85 90.5" stroke="#BAFF01"/>
-            </svg> */}
-
             <svg className={style.decoratorGlow} width="821" height="821" viewBox="0 0 821 821" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_f_783_328)">
                 <circle cx="410.5" cy="410.5" r="210.5" fill="#1BCFBD" fill-opacity="0.13"/>
