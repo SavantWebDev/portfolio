@@ -6,17 +6,27 @@ export default function Header() {
 
             {/* Navlinks */}
             <ul className={style.navLinks}>
-                <li>Serviços
-                    <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.5 1L7 7.5L13.5 1" stroke="#1BCFBD"/>
-                    </svg>
+                <li>
+                    <a href="">
+                        Serviços
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 1L7 7.5L13.5 1" stroke="#1BCFBD"/>
+                        </svg>
+                    </a>
                 </li>
-                <li>Produtos
-                    <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.5 1L7 7.5L13.5 1" stroke="#1BCFBD"/>
-                    </svg>
+                <li>
+                    <a href="">
+                        Produtos
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 1L7 7.5L13.5 1" stroke="#1BCFBD"/>
+                        </svg>
+                    </a>
                 </li>
-                <li>Projetos</li>
+                <li>
+                    <a href="/projects">
+                        Projetos
+                    </a>
+                </li>
             </ul>
 
             {/* Logo */}

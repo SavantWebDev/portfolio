@@ -17,6 +17,9 @@
 
 .navLinks li:not(:last-child) {
     margin-right: 30px;
+}
+
+.navLinks li a {
     display: flex;
     align-items: center;
 }
