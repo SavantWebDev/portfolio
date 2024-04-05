@@ -1,0 +1,102 @@
+/* Container */
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.contentContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Left Area */
+.asideContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 10vh;
+}
+
+.circleWords {
+    height: 140px;
+}
+
+/* Text Area */
+.textArea {
+    position: sticky;
+    top: 40px;
+}
+
+.textArea  h1 {
+    font-size: 96px;
+}
+
+.textArea p {
+    position: relative;
+    font-size: 14px;
+    width: 400px;
+}
+
+.textArea p::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -21px;
+    width: 1px;
+    height: 100%;
+    background-color: #0CA494;
+}
+
+.marks {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.marks li .point {
+    display: block;
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.marks li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.marks li.selected {
+    padding: 8px;
+    border: 1px solid #1BCFBD;
+    border-radius: 50%;
+}
+
+.marks li.selected .point {
+    background-color: #1BCFBD;
+    border: 1px solid #1BCFBD;
+}
+
+/* Line grids */
+.lineGrid {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 0px;
+    z-index: -1;
+    background-color: #404141;
+}
+
+.line2 {
+    left: 8%;
+}
+
+.line3 {
+    left: calc(40% - 0.5px);
+}
+
+.line4 {
+    right: 8%;
+}
