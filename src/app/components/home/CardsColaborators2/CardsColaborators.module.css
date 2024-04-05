@@ -1,15 +1,16 @@
 .cardColaborator {
     position: relative;
+    background-color: #000;
+    background-color: #292A2C;
     display: flex;
-    border-radius: 20px;
+    border-radius: 40px;
     margin-right: 20px;
     transition: .3s;
     width: 600px;
-    border: 1px solid #292A2C;
 }
 
 .cardColaborator:hover {
-    background-color: #0000004e;
+    background-color: #000;
 }
 
 /* Image Colaborator */
@@ -37,18 +38,17 @@
 }
 
 .informationArea h1 {
-    font-size: 28px;
-    font-weight: 200;
+    font-size: 36px;
+    font-weight: 600;
     line-height: 120%;
 }
 
 .informationArea h1 b {
     color: var(--principalColor);
-    font-weight: 200;
+    font-weight: 600;
 }
 
 .informationArea p {
-    font-size: 14px;
     margin-top: 20px;
 }
 
@@ -69,18 +69,17 @@
 }
 
 .cardColaborator:hover .tags li {
-    color: #fff;
-    background-color: rgba(19, 19, 19, .49);
+    color: var(--glowColor);
+    border: 1px solid var(--glowColor);
 }
 
 /* Decorator Glow */
 .decoratorGlow {
     opacity: 0;
     position: absolute;
-    bottom: -200px;
-    right: -150px;
+    bottom: -30px;
+    right: -20px;
     transition: .3s;
-    z-index: -1;
 }
 
 .cardColaborator:hover .decoratorGlow {

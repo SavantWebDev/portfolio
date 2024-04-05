@@ -19,26 +19,14 @@ export default function CardsColaborators() {
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
                 {/* Tags */}
                 <ul className={style.tags}>
-                    <li>Designers</li>
+                    <li>Front-End</li>
+                    <li>Design</li>
                 </ul>
             </div>
 
             {/* Decorator Glow */}
-            {/* <svg className={style.decoratorGlow} width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className={style.decoratorGlow} width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M81.5 1L1 84.5L85 38.5L58.5 81.5L89.5 67L85 90.5" stroke="#BAFF01"/>
-            </svg> */}
-
-            <svg className={style.decoratorGlow} width="821" height="821" viewBox="0 0 821 821" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g filter="url(#filter0_f_783_328)">
-                <circle cx="410.5" cy="410.5" r="210.5" fill="#1BCFBD" fill-opacity="0.13"/>
-                </g>
-                <defs>
-                <filter id="filter0_f_783_328" x="0" y="0" width="821" height="821" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_783_328"/>
-                </filter>
-                </defs>
             </svg>
 
         </article>
