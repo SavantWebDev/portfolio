@@ -56,12 +56,33 @@
     text-transform: uppercase;
     margin-bottom: 80px;
 }
-.viewMore h3 b {
+
+.numberPrejects {
+    display: flex;
+    align-items: center;
+}
+
+.numberPrejects svg {
+    margin-right: 20px;
+}
+
+.numberPrejects span {
+    display: block;
+    font-size: 14px;
+    color: #7B7B7B;
+    letter-spacing: 1.4px;
+}
+
+.numberPrejects h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.numberPrejects h3 b {
+    font-size: 20px;
     color: #1BCFBD;
-    font-weight: 400;
     margin-right: 10px;
 }
- 
 
 /* Button Area */
 .buttonArea {

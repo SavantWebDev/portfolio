@@ -12,6 +12,10 @@ export default function ColaboratorsArea() {
 
                 {/* Slider Cards */}
                 <div className={style.sliderCards}>
+
+                    {/* Tag */}
+                    <span className={style.tag}>The Dream Team</span>
+
                     <CardsColaborators />
                     
                     <CardsColaborators />

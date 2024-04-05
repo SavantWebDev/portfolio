@@ -124,11 +124,23 @@ export default function PrejectsArea() {
 
                 {/* View More Area */}
                 <div className={style.viewMore}>
-                    {/* Numer Projects */}
-                    <h3>
-                        <b>+</b>
-                        25 projetos
-                    </h3>
+
+                    {/* Number Projects */}
+                    <div className={style.numberPrejects}>
+                        <svg width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="38" cy="38" r="37.5" stroke="#404141"/>
+                            <path d="M22 40H55" stroke="#404141"/>
+                            <path d="M38.5 55.5V25" stroke="#404141"/>
+                            <path d="M27.7164 51.0336L49.2832 29.4668" stroke="#404141"/>
+                            <path d="M49.5668 51.5668L28 30" stroke="#404141"/>
+                        </svg>
+
+                        <div>
+                            {/* tag */}
+                            <span>Realizados</span>
+                            <h3><b>+</b>25 projetos</h3>
+                        </div>
+                    </div>
                     
                     {/* Button Area */}
                     <div className={style.buttonArea}>
