@@ -5,4 +5,20 @@
 .containerCards {
     display: flex;
     width: 60%;
+    position: relative;
+}
+
+.listCards {
+    width: 100%;
+    padding-top: 180px;
+}
+
+.containerCards::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px; 
+    height: 100%;
+    width: 1px;
+    background-color: #404141;
 }

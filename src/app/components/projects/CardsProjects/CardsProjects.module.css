@@ -3,6 +3,7 @@
     display: flex;
     width: 100%;
     margin-bottom: 200px;
+    padding-left: 40px;
 }
 
 .card:not(:last-child):after {

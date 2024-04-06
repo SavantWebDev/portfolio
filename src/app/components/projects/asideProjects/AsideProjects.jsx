@@ -114,7 +114,7 @@ export default function AsideProjects() {
 
             {/* line grids */}
             <span className={`${style.lineGrid} ${style.line2}`}></span>
-            <span className={`${style.lineGrid} ${style.line3}`}></span>
+            
         </section>
     )
 }
