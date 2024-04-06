@@ -27,7 +27,6 @@
     flex-direction: column;
     position: relative;
     padding-top: 80px;
-    padding-left: 80px;
     padding-bottom: 10vh;
     width: 40%;
 }
@@ -40,6 +39,10 @@
 .textArea {
     position: sticky;
     top: 40px;
+}
+
+.contentTextArea {
+    padding-left: 80px;
 }
 
 .textArea  h1 {
@@ -91,6 +94,47 @@
     border: 1px solid #1BCFBD;
 }
 
+/* tag */
+.tag {
+    display: block;
+    color: #7B7B7B;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    margin-top: 40px;
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+
+.carroselLogos {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    overflow-x: hidden;
+    background-color: rgba(23, 23, 23, 0.1);
+}
+
+.areaLogos {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    animation: scrollingParceiros 10s linear infinite;
+}
+
+.areaLogos img {
+    height: 45px;
+    padding-left: 80px;
+}
+
+@keyframes scrollingParceiros {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(50%);
+    }
+}
+
 /* Aside Dcorator */
 .asideDecoratorBar {
     position: absolute;
@@ -113,7 +157,7 @@
 .sliderItems {
     display: flex;
     flex-direction: column;
-    animation: scrolling 22s linear infinite;
+    animation: scrolling 20s linear infinite;
 }
 
 @keyframes scrolling {

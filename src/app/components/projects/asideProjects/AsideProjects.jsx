@@ -11,24 +11,47 @@ export default function AsideProjects() {
                 <aside className={style.asideContainer}>
                     {/* Text Area  */}
                     <div className={style.textArea}>
-                        <img className={style.circleWords} src="./icons/circleWords.svg" alt="" />
-                        <h1>projetos</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <ul className={style.marks}>
-                            <li className={style.selected}>
-                                <span className={style.point}></span>
-                            </li>
-                            <li>
-                                <span className={style.point}></span>
-                            </li>
-                            <li>
-                                <span className={style.point}></span>
-                            </li>
-                            <li>
-                                <span className={style.point}></span>
-                            </li>
-                        </ul>
+
+                        {/* Content Text Area */}
+                        <div className={style.contentTextArea}>
+                            <img className={style.circleWords} src="./icons/circleWords.svg" alt="" />
+                            <h1>projetos</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <ul className={style.marks}>
+                                <li className={style.selected}>
+                                    <span className={style.point}></span>
+                                </li>
+                                <li>
+                                    <span className={style.point}></span>
+                                </li>
+                                <li>
+                                    <span className={style.point}></span>
+                                </li>
+                                <li>
+                                    <span className={style.point}></span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        {/* tag */}
+                        <span className={style.tag}>MARCAS PARCEIRAS</span>
+                        {/* Carrosel Logos */}
+                        <div className={style.carroselLogos}>
+                            {/* Ara Logos */}
+                            <div className={style.areaLogos}>
+                                <img src="./images/logosParceiros/figma.svg" alt="" />
+                                <img src="./images/logosParceiros/spotfy.svg" alt="" />
+                                <img src="./images/logosParceiros/inter.svg" alt="" />
+                            </div>
+                            {/* Ara Logos */}
+                            <div className={style.areaLogos}>
+                                <img src="./images/logosParceiros/figma.svg" alt="" />
+                                <img src="./images/logosParceiros/spotfy.svg" alt="" />
+                                <img src="./images/logosParceiros/inter.svg" alt="" />
+                            </div>
+                        </div>
                     </div>
+
                 </aside>
 
                 {/* Projects Area */}
