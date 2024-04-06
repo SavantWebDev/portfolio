@@ -36,6 +36,81 @@ export default function AsideProjects() {
 
             </div>
 
+            {/* Aside Decorator Bar */}
+            <div className={style.asideDecoratorBar}>
+
+                {/* Slider  Itens 1*/}
+                <div className={style.sliderItems}>
+
+                    <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.99609 0.000976562L9.99609 19.8103" stroke="white" stroke-width="0.600282"/>
+                        <path d="M0.691406 9.90576L19 9.90576" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.37223 3.43229L16.3184 16.3784" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.05289 16.5487L15.999 3.60254" stroke="white" stroke-width="0.600282"/>
+                    </svg>
+
+                    <img src=".\icons\fraseProjects.svg" alt="" />
+
+                    <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.99609 0.000976562L9.99609 19.8103" stroke="white" stroke-width="0.600282"/>
+                        <path d="M0.691406 9.90576L19 9.90576" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.37223 3.43229L16.3184 16.3784" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.05289 16.5487L15.999 3.60254" stroke="white" stroke-width="0.600282"/>
+                    </svg>
+
+                    <img src=".\icons\fraseProjects.svg" alt="" />
+
+                    <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.99609 0.000976562L9.99609 19.8103" stroke="white" stroke-width="0.600282"/>
+                        <path d="M0.691406 9.90576L19 9.90576" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.37223 3.43229L16.3184 16.3784" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.05289 16.5487L15.999 3.60254" stroke="white" stroke-width="0.600282"/>
+                    </svg>
+
+                    <img src=".\icons\fraseProjects.svg" alt="" />
+
+                    <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.99609 0.000976562L9.99609 19.8103" stroke="white" stroke-width="0.600282"/>
+                        <path d="M0.691406 9.90576L19 9.90576" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.37223 3.43229L16.3184 16.3784" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.05289 16.5487L15.999 3.60254" stroke="white" stroke-width="0.600282"/>
+                    </svg>
+
+                </div>
+
+                {/* Slider  Itens 2*/}
+                <div className={style.sliderItems}>
+
+                    <img src=".\icons\fraseProjects.svg" alt="" />
+
+                    <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.99609 0.000976562L9.99609 19.8103" stroke="white" stroke-width="0.600282"/>
+                        <path d="M0.691406 9.90576L19 9.90576" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.37223 3.43229L16.3184 16.3784" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.05289 16.5487L15.999 3.60254" stroke="white" stroke-width="0.600282"/>
+                    </svg>
+
+                    <img src=".\icons\fraseProjects.svg" alt="" />
+
+                    <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.99609 0.000976562L9.99609 19.8103" stroke="white" stroke-width="0.600282"/>
+                        <path d="M0.691406 9.90576L19 9.90576" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.37223 3.43229L16.3184 16.3784" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.05289 16.5487L15.999 3.60254" stroke="white" stroke-width="0.600282"/>
+                    </svg>
+
+                    <img src=".\icons\fraseProjects.svg" alt="" />
+
+                    <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.99609 0.000976562L9.99609 19.8103" stroke="white" stroke-width="0.600282"/>
+                        <path d="M0.691406 9.90576L19 9.90576" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.37223 3.43229L16.3184 16.3784" stroke="white" stroke-width="0.600282"/>
+                        <path d="M3.05289 16.5487L15.999 3.60254" stroke="white" stroke-width="0.600282"/>
+                    </svg>
+
+                </div>
+
+            </div>
 
             {/* line grids */}
             <span className={`${style.lineGrid} ${style.line2}`}></span>
