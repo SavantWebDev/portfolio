@@ -1,3 +1,4 @@
+import ProjectsList from '../ProjectsList/ProjectsList'
 import style from './AsideProjects.module.css'
 
 export default function AsideProjects() {
@@ -8,8 +9,6 @@ export default function AsideProjects() {
 
                 {/* Aside Container */}
                 <aside className={style.asideContainer}>
-
-
                     {/* Text Area  */}
                     <div className={style.textArea}>
                         <img className={style.circleWords} src="./icons/circleWords.svg" alt="" />
@@ -30,8 +29,10 @@ export default function AsideProjects() {
                             </li>
                         </ul>
                     </div>
-
                 </aside>
+
+                {/* Projects Area */}
+                <ProjectsList />
 
             </div>
 
@@ -39,7 +40,6 @@ export default function AsideProjects() {
             {/* line grids */}
             <span className={`${style.lineGrid} ${style.line2}`}></span>
             <span className={`${style.lineGrid} ${style.line3}`}></span>
-            <span className={`${style.lineGrid} ${style.line4}`}></span>
         </section>
     )
 }

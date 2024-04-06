@@ -1,0 +1,160 @@
+.card {
+    display: flex;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.card.isLastCardConfirmed {
+    margin-bottom: 100px;
+}
+
+/* Image Area */
+.imageArea {
+    position: relative;
+    min-width: 30%;
+}
+
+.imageArea img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.imageArea span {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    z-index: 99;
+}
+
+/* Text Area */
+.textArea {
+    position: relative;
+    margin-left: 28px;
+    width: 100%;
+}
+
+.textArea::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.textArea:hover::after{
+    border: 1px solid #1BCFBD;
+}
+
+.textArea span {
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.textArea:hover span {
+    color: #1BCFBD;
+}
+
+.textArea h1 {
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 100%;
+}
+
+.textArea p {
+    position: relative;
+    width: 400px;
+    font-size: 14px;
+    margin-top: 16px;
+    transition: .3s;
+    transition-delay: .3s;
+}
+
+.textArea p::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    height: 0%;
+    width: 1px;
+    background-color: #1BCFBD;
+    transition: .2s;
+    transition-delay: .5s;
+}
+
+.textArea:hover p {
+    margin-left: 20px;
+}
+
+.textArea:hover p::after {
+    height: 100%;
+}
+
+/* Tags View Area */
+.areaTagsView {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    width: 80%;
+}
+
+/* Tags */
+.tagsArea {
+    display: flex;
+}
+
+.tagsArea li {
+    border: 1px solid #fff;
+    border-radius: 40px;
+    padding: 10px 18px;
+    font-size: 14px;
+}
+
+.tagsArea li:not(:last-child) {
+    margin-right: 10px;
+}
+
+/* View Project */
+.viewProject {
+    display: flex;
+    position: relative;
+    transition: .3s;
+}
+
+.viewProject::after {
+    content: '';
+    background-color: #1BCFBD;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    width: 0%;
+    height: 1px;
+    transition: .3s;
+}
+
+.viewProject:hover::after {
+    width: 40%;
+}
+
+.viewProject svg {
+    transition: .3s;
+}
+
+.viewProject:hover svg {
+    rotate: 45deg;
+}
+
+.viewProject svg path {
+    transition: .3s;
+}
+
+.viewProject:hover svg path {
+    fill: #1BCFBD;
+}

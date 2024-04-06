@@ -1,0 +1,35 @@
+.containerCards {
+    display: flex;
+    width: 60%;
+}
+
+/* Aside Dcorator */
+.asideDecoratorBar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 1890px;
+    width: 100px;
+    overflow-y: hidden;
+    background-color: #171717;
+}
+
+.asideDecoratorBar svg {
+    margin: 20px 0px 20px 0px;
+}
+
+.sliderItems {
+    display: flex;
+    flex-direction: column;
+    animation: scrolling 22s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateY(-50%);
+    }
+    100% {
+        transform: translateY(50%);
+    }
+}
