@@ -47,21 +47,6 @@
     width: 100%;
 }
 
-.textArea::after {
-    content: '';
-    position: absolute;
-    bottom: -40px;
-    width: 15px;
-    height: 15px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    transition: .3s;
-}
-
-.textArea:hover::after{
-    border: 1px solid #1BCFBD;
-}
-
 .textArea span {
     font-weight: 400;
     text-transform: uppercase;
