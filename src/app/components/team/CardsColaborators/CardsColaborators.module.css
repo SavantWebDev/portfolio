@@ -1,0 +1,88 @@
+.cardColaborator {
+    position: relative;
+    display: flex;
+    border-radius: 20px;
+    margin-right: 20px;
+    transition: .3s;
+    width: 100%;
+    border: 1px solid #292A2C;
+}
+
+.cardColaborator:hover {
+    background-color: #0000004e;
+}
+
+/* Image Colaborator */
+.imageColaborator {
+    position: relative;
+    width: 50%;
+}
+.imageColaborator img{
+    position: absolute;
+    bottom: 0;
+    filter: saturate(0);
+    transition: .3s;
+}
+
+.cardColaborator:hover .imageColaborator img{
+    filter: saturate(100%);
+}
+
+/* Information Area */
+.informationArea {
+    width: 60%;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+
+.informationArea h1 {
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 120%;
+}
+
+.informationArea h1 b {
+    color: var(--principalColor);
+    font-weight: 200;
+}
+
+.informationArea p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Tags */
+.tags {
+    display: flex;
+    margin-top: 20px;
+}
+
+.tags li {
+    border: 1px solid #9B9B9C;
+    color: #9B9B9C;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 40px;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+.cardColaborator:hover .tags li {
+    color: #fff;
+    background-color: rgba(19, 19, 19, .49);
+}
+
+/* Decorator Glow */
+.decoratorGlow {
+    opacity: 0;
+    position: absolute;
+    bottom: -200px;
+    right: -150px;
+    transition: .3s;
+    z-index: -1;
+}
+
+.cardColaborator:hover .decoratorGlow {
+    opacity: 1;
+}
