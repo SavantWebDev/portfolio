@@ -31,6 +31,7 @@ export default function AsideProjects() {
                             </div>
                         </div>
 
+                        {/* Page Link */}
                         <a className={style.pageLink} href="">
                             <span>METODOLOGIA</span>
                             <div className={style.areaIcon}>
