@@ -40,13 +40,13 @@
     font-size: 64px;
 }
 
-.textArea p {
+.textArea .description {
     position: relative;
     font-size: 14px;
     width: 400px;
 }
 
-.textArea p::after {
+.textArea .description::after {
     content: '';
     position: absolute;
     top: 0px;
@@ -56,33 +56,39 @@
     background-color: #0CA494;
 }
 
-.marks {
+/* Stats */
+.stats {
     display: flex;
     align-items: center;
     margin-top: 30px;
+    width: 100%;
 }
 
-.marks li .point {
-    display: block;
-    border: 1px solid #fff;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+.stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.marks li:not(:last-child) {
-    margin-right: 10px;
+.stats li:not(:last-child) {
+    margin-right: 40px;
 }
 
-.marks li.selected {
-    padding: 8px;
-    border: 1px solid #1BCFBD;
-    border-radius: 50%;
+.stats li .topText {
+    font-size: 14px;
+    color: #7B7B7B;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
 }
 
-.marks li.selected .point {
-    background-color: #1BCFBD;
-    border: 1px solid #1BCFBD;
+.stats li p {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.stats li p b {
+    color: #0CA494;
 }
 
 /* Area Down */
@@ -138,7 +144,7 @@
 /* Decorators Area */
 .rightArea {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     position: relative;
     width: 50%;
@@ -147,8 +153,17 @@
 
 .rightArea img {
     filter: grayscale(1);
-    width: 80%;
+    /* mix-blend-mode: luminosity; */
+    width: 90%;
     padding-top: 140px;
+}
+
+.decoratorGlow {
+    position: absolute;
+    width: 600px;
+    left: calc(50% - 300px);
+    top: calc(50% - 410px);
+    z-index: -1;
 }
 
 /* Floating Text */
