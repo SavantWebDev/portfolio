@@ -73,6 +73,33 @@
     background-color: rgba(19, 19, 19, .49);
 }
 
+/* Span Button */
+.spanButton {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #252525;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.spanButton:hover {
+    border: 1px solid #1BCFBD;
+}
+
+.spanButton svg path {
+    transition: .3s;
+}
+
+.spanButton:hover svg path {
+    stroke: #1BCFBD;
+}
+
 /* Decorator Glow */
 .decoratorGlow {
     opacity: 0;

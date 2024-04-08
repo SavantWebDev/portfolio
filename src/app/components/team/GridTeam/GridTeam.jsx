@@ -6,6 +6,12 @@ export default function GridTeam() {
         <section className={style.container}>
             {/* Grid Area */}
             <div className={style.gridArea}>
+                {/* Title section */}
+                <div className={style.titleSection}>
+                    <span className={style.disclaimer}>THE MIND</span>
+                    <h2>Dev TEAM</h2>
+                </div>
+
                 <CardsColaborators />
                 
                 <CardsColaborators />
@@ -13,6 +19,19 @@ export default function GridTeam() {
                 <CardsColaborators />
 
                 <CardsColaborators />
+            </div>
+            {/* Grid Area */}
+            <div className={style.gridArea}>
+                {/* Title section */}
+                <div className={style.titleSection}>
+                    <span className={style.disclaimer}>THE criativity</span>
+                    <h2>Design TEAM</h2>
+                </div>
+
+                <CardsColaborators />
+                
+                <CardsColaborators />
+
             </div>
 
             {/* line grids */}
