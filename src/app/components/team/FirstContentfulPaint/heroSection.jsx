@@ -13,7 +13,7 @@ export default function HeroSection() {
                     {/* Text Area  */}
                     <div className={style.textArea}>
                         <img className={style.circleWords} src="./icons/circleWords.svg" alt="" />
-                        <h1>Dream 
+                        <h1>the 
                             <br />
                             <b>Team</b>
                         </h1>
