@@ -1,0 +1,180 @@
+.container {
+    position: relative;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    height: 1px;
+}
+
+.containerContent {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: auto;
+    position: relative;
+}
+
+/* Left Area */
+.leftArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+    padding-bottom: 10vh;
+}
+
+.circleWords {
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+/* Text Area */
+.textArea  h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.textArea  h1 b {
+    font-size: 64px;
+    color: #1BCFBD;
+}
+
+.textArea .description {
+    position: relative;
+    font-size: 14px;
+    width: 400px;
+}
+
+.textArea .description::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -21px;
+    width: 1px;
+    height: 100%;
+    background-color: #0CA494;
+}
+
+/* Decorators Area */
+.rightArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    padding: 100px 40px 40px 40px;
+}
+
+/* Form */
+.form {
+    width: 100%;
+    background-color: rgba(37, 37, 37, .2);
+    border-radius: 10px;
+    border: 1px solid #373737;
+    padding: 20px 40px;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.label:not(:first-child) {
+    display: block;
+    margin-top: 16px;
+}
+
+.inputArea {
+    position: relative;
+    margin-top: 20px;
+}
+
+.inputArea:not(:last-child):after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff1d;
+}
+
+.inputArea input {
+    width: 90%;
+    background-color: transparent;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+.inputArea input:focus {
+    outline: none;
+}
+
+.inputArea input::placeholder {
+    /* color: #676767; */
+}
+
+.inputArea .num {
+    width: 10%;
+    font-size: 24px;
+}
+
+.decoratorGlow {
+    position: absolute;
+    width: 600px;
+    right: -250px;
+    top: -200px;
+    z-index: -1;
+}
+
+/* Floating Text */
+.floatingTextTop {
+    position: absolute;
+    display: block;
+    top: 56px;
+    right: 0px;
+    font-size: 14px;
+    color: #7B7B7B;
+    letter-spacing: 1.4px;
+}
+
+
+/* Line grids */
+.lineGrid {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 0px;
+    z-index: -1;
+    background-color: #404141;
+}
+
+.line1 {
+    left: 40px;
+}
+
+.line2 {
+    left: 8%;
+}
+
+.line3 {
+    left: calc(50% - 0.5px);
+}
+
+.line4 {
+    right: 8%;
+}
+
+.line5 {
+    right: 40px;
+}
