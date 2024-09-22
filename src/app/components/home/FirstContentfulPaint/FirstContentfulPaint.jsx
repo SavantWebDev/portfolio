@@ -1,4 +1,4 @@
-import style from './FirstContentfulPaint.module.css'
+import style from './FirstContentfulPaint.module.scss'
 
 export default function FirstContentfulPaint() {
     return (

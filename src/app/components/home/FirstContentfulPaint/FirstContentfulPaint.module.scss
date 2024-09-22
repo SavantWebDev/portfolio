@@ -323,3 +323,41 @@
 .line5 {
     right: 40px;
 }
+
+@media (max-width: 1700px) {
+    .line2 {
+        left: 40px;
+    }
+
+    .line4 {
+        right: 40px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .container {
+        padding: 0px 60px;
+    }
+
+    .line2 {
+        left: 40px;
+    }
+
+    .line4 {
+        right: 40px;
+    }
+    
+}
+
+@media (max-width: 1400px) {
+    .circleArea {
+        height: 180px;
+        width: 180px;
+        left: calc(50% - 90px);
+        top: calc(50% - 90px);
+
+        img {
+            height: 100px;
+        }
+    }
+}
